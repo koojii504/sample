@@ -659,6 +659,10 @@ footer .copyright{
 		display: block;
 		margin-bottom: 30px;
 	}
+	.about_box{
+		justify-content: center;
+		margin-block: 0 3%;
+	}
 	.about_text-yoga,
 	.about_text-pilates{
 		font-size: 12px;
@@ -930,5 +934,6 @@ footer .copyright{
 		bottom: 0;
 	}
 }
+
 
 
