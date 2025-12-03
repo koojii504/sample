@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-body,h1,h2,h3,h4,p,ul,ol,figure,dl,dd{
+body,h1,h2,h3,h4,h5,p,ul,ol,figure,dl,dd{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -248,21 +248,22 @@ header{
 	padding: 60px 5px 15px 10px;
 	border-right: none;
 	border-radius: 15px 0 0 15px;
-	background: url(../images/icon_instagram.png) no-repeat;
+	background: url(../images/icon_email.png) no-repeat;
 	/* background-color: #fff; */
 	background-color: #ffa6ca;
 	background-position: center 15%;
 	background-size: 40%;
 	box-shadow: -10px 10px 15px -5px #b3b3b3;
-	color: #666;
+	color: #fff;
+	/* color: #666; */
 	font-family: "Hiragino Sans","ヒラギノ角ゴシック";
-	font-weight: 900;
+	/* font-weight: 900; */
 	text-decoration: none;
 }
 
 /* about（教室について） */
 .about{
-	margin-top: 607px;	
+	margin-top: 607px;
 }
 .about_title{
 	text-align: center;
@@ -280,7 +281,7 @@ header{
 .about_text-pilates{
 	text-align: center;
 	font-size: 16px;
-	line-height: 1.5;
+	line-height: 2;
 }
 .about .about_box{
 	justify-items: center;
@@ -304,7 +305,7 @@ header{
   width: 60px;
   padding: 28px 5px;
   border-radius: 90px;
-  background: #ab101b;
+  background: #ffa6ca;
   color: #fff;
   text-decoration: none;
   opacity: 0.9;
@@ -354,6 +355,7 @@ header{
 .lesson_pilates-right,
 .lesson_reformer-left{
 	align-content: center;
+	line-height: 2;
 }
 .lesson_yoga-text span{
 	display: block;
@@ -361,20 +363,8 @@ header{
 .lesson_suppl{
 	display: grid;
 	justify-content: center;
-}
-.lesson_teacher{
-	margin-bottom: 50px;
-}
-.lesson_teacher-title{
-	text-align: center;
-}
-.lesson_teacher-wrapper{
-	margin-bottom: 30px;
-}
-.lesson_link{
-	display: flex;
-	justify-content: center;
-	gap: 50px;
+	gap: 20px;
+	font-size: 14px;
 }
 
 /* 料金 */
@@ -520,39 +510,104 @@ article .grid{
 	line-height: 1.5;
 }
 
+/* 講師 */
+.teacher{
+	height: 100%;
+	margin-bottom: 50px;
+	background-color: #fff;
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+	border-block: 1px solid transparent;
+}
+.teacher_title{
+	text-align: center;
+	margin-block: 20px 50px;
+	font-size: 40px;
+	font-family: 'Sacramento', cursive;
+	line-height: 1.5;
+}
+.teacher_title-sub{
+	font-size: 24px;
+	line-height: 1.5;
+}
+.teacher_wrapper{
+	display: grid;
+	grid-template-columns: 320px 400px;
+	justify-self: center;
+	gap: 30px;
+	margin-bottom: 50px;
+}
+.teacher_img{
+	width: 300px;
+}
+.teacher_profile-text{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.teacher_name{
+	margin-block: 10px;
+}
+.teacher_license-title{
+	margin-block: 0;
+}
+.teacher_license{
+	font-size: 14px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+.teacher_external{
+	background-color: #f9f4f2;
+}
+.teacher_external-title{
+	padding: 10px 0 10px 20px;
+}
+.teacher_external-shop{
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	padding-bottom: 8px;
+}
+.teacher_external-shop{
+	font-size: 14px;
+	line-height: 1.2;
+}
+.teacher_external-list{
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	gap: 10px;
+	padding-bottom: 30px;
+}
+.teacher_external-text{
+	padding-block: 10px;
+	padding-inline: 30px;
+	border: 1px solid #999;
+	border-radius: 25px;
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+	transition: .8s;
+	&:hover{
+		background-color: #009A44;
+		color: #fff;
+	}
+}
+
+/* フッター */
 .footer{
 	width: 100%;
 }
 .footer_wrapper{
 	display: block;
-	/* justify-self: end; */
 	margin-bottom: 30px;
 }
-.footer_info{
-	display: grid;
-	justify-content: center;
-	grid-template-columns: 120px 1fr;
-	width: 300px;
+.footer_sns{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
 }
-.footer_info-menu{
-	margin-bottom: 10px;
-}
-.footer_info-data{
-	margin: 0 0 10px 20px;
-}
-.footer_contact{
-	display: flex;
-	width: 300px;
-}
-.footer_contact-sns{
-	margin-left: 40px;
-}
-.fa-instagram{
-	margin-right: 1em;
-}
-footer a{
-	color: #666;
-	text-decoration: none;
+.footer_icon-instagram{
+	display: block;
 }
 footer .copyright{
 	text-align: center;
@@ -574,7 +629,7 @@ footer .copyright{
   .flex{
 		display: block;
   }
-	
+
 	/* ヘッダー */
 	.header_logo-img{
 		width: 60px;
@@ -649,7 +704,7 @@ footer .copyright{
 	}
 
 
-
+/* about */
 	.about{
 		margin-top: 285px;
 		margin-inline: 20px;
@@ -667,6 +722,7 @@ footer .copyright{
 	.about_text-pilates{
 		font-size: 12px;
 	}
+
 
 	/* レッスン */
 	.lesson{
@@ -725,6 +781,7 @@ footer .copyright{
 	.lesson_teacher{
 		margin-inline: 20px;
 	}
+
 	/* 料金 */
 	.price{
 		margin-inline: 20px;
@@ -934,6 +991,5 @@ footer .copyright{
 		bottom: 0;
 	}
 }
-
 
 
