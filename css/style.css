@@ -817,7 +817,8 @@ footer .copyright{
 	}
 	.price_item{
 		display: block;
-		justify-items: center;
+		/* justify-items: center; */
+		margin: auto;
 		margin-bottom: 0;
 	}
 	.price_box{
@@ -1066,5 +1067,6 @@ footer .copyright{
 		bottom: 0;
 	}
 }
+
 
 
