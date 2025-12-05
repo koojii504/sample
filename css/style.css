@@ -283,7 +283,7 @@ header{
 	font-size: 16px;
 	line-height: 2;
 }
-.about .about_box{
+.about_box{
 	justify-items: center;
 	margin-block: 0 3%;
 }
@@ -414,16 +414,20 @@ header{
 	font-weight: bold;
 }
 .price_suppl{
-	margin: 0 0 20px 100px;
-	padding-left: 40px;
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 50px;
 	font-size: 14px;
 }
 .price_suppl-discount{
 	display: flex;
 	gap: 50px;
-	margin: 0 0 20px 100px;
-	padding-left: 40px;
 	font-size: 14px;
+}
+.price_cancel{
+	font-size: 14px;
+
 }
 
 /* スケジュール */
@@ -552,6 +556,8 @@ article .grid{
 .teacher_img{
 	width: 300px;
 }
+
+/* 資格 */
 .teacher_name{
 	margin-block: 10px;
 }
@@ -563,7 +569,8 @@ article .grid{
 	list-style-type: square;
 	list-style-position: inside;
 }
-/* 資格 */
+
+/* 講師コメント */
 .teacher_comment-text{
 	margin-bottom: 10px;
 	font-size: 16px;
@@ -766,6 +773,9 @@ footer .copyright{
 	.lesson_reformer-left{
 		width: 250px;
 	}
+	.lesson_yoga-img{
+		width: 50vw;
+	}
 	.lesson_yoga-title,
 	.lesson_pilates-title,
 	.lesson_reformer-title{
@@ -791,9 +801,6 @@ footer .copyright{
 		display: block;
 		font-size: 10px;
 		line-height: 1.5;
-	}
-	.lesson_teacher{
-		margin-inline: 20px;
 	}
 
 	/* 料金 */
@@ -834,15 +841,19 @@ footer .copyright{
 		font-size: 24px;
 	}
 	.price_suppl{
-		text-align: center;
-		margin: 20px 0 0 0;
+		margin: 20px 0 20px 0;
 		padding-left: 0;
 	}
 	.price_suppl-discount{
 		display: block;
-		gap: 50px;
-		margin: 0 0 20px 0;
-		padding-left: 44px;
+		margin: 0;
+	}
+	.price_suppl-discount-fee{
+		text-indent: 1em;
+	}
+	.price_cancel span{
+		display: block;
+		text-indent: 1em;
 	}
 
 	/* スケジュール */
@@ -893,6 +904,7 @@ footer .copyright{
 	.topics{
 		box-shadow: none;
 		/* background-color: #eee; */
+		margin-bottom: 0;
 	}
 	.topics_title{
 		text-align: center;
@@ -933,12 +945,61 @@ footer .copyright{
 		/* height: 50px; */
 		padding: 18px 5px;
 		border-radius: 90px;
-		background: #ab101b;
+		background: #ffa6ca;
 		color: #fff;
 		text-decoration: none;
 		opacity: 0.9;
 		transition: all .3s ease;
 	}
+
+	/* 講師 */
+	.teacher{
+		margin-bottom: 0;
+		box-shadow: none;
+		background-color: #f9f4f2;
+	}
+	.teacher_wrapper{
+		display: block;
+		justify-items: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.teacher_content{
+		margin-bottom: 20px;
+	}
+	.teacher_profile{
+		display: block;
+		justify-items: center;
+		margin-bottom: 20px;
+	}
+	.teacher_img{
+		width: 150px;
+		border-radius: 50%;
+		margin-bottom: 20px;
+	}
+	.teacher_name{
+		text-align: center;
+	}
+	.teacher_comment{
+		margin-inline: 30px;
+	}
+	.teacher_comment-text{
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+
+	.teacher_external{
+		margin-left: 0;
+		background-color: #fff;
+	}
+	.teacher_external-title{
+		padding: 10px 0;
+		text-align: center;
+	}
+	.teacher_external-text{
+		background-color: #f9f4f2;
+	}
+
 
 	/* フッター */
 	.footer_wrapper{
