@@ -736,6 +736,7 @@ footer .copyright{
 		margin-bottom: 30px;
 	}
 	.about_box{
+		display: grid;
 		justify-content: center;
 		margin-block: 0 3%;
 	}
