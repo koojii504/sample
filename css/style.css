@@ -817,7 +817,8 @@ footer .copyright{
 	}
 	.price_item{
 		display: block;
-		/* justify-items: center; */
+		justify-items: center;
+		width: 312px;
 		margin: auto;
 		margin-bottom: 0;
 	}
@@ -1067,6 +1068,5 @@ footer .copyright{
 		bottom: 0;
 	}
 }
-
 
 
