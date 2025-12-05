@@ -364,6 +364,9 @@ header{
 .lesson_yoga-text span{
 	display: block;
 }
+.lesson_yoga-img{
+	width: 250px;
+}
 .lesson_suppl{
 	display: grid;
 	justify-content: center;
