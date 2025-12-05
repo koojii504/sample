@@ -712,6 +712,7 @@ footer .copyright{
 
 	/* 予約タブ */
 	.reserve{
+		display: none;
 		position: fixed;
 		top: 150px;
 		right: 0;
@@ -1069,5 +1070,6 @@ footer .copyright{
 		bottom: 0;
 	}
 }
+
 
 
