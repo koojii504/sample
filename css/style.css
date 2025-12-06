@@ -554,12 +554,12 @@ article .grid{
 	margin-bottom: 20px;
 }
 .teacher_img{
-	width: 300px;
+	width: 200px;
 }
 
 /* 資格 */
 .teacher_name{
-	margin-block: 10px;
+	margin-bottom: 10px;
 }
 .teacher_license-title{
 	margin-block: 0;
