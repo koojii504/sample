@@ -891,13 +891,17 @@ footer .copyright{
 		margin: 0;
 		padding-top: 5vw;
 	}
+	.access_map{
+		display: block;
+		margin: auto;
+	}
 	.access_address{
 		width: auto;
-		margin: 0 0 10px 12vw;
+		margin: 0 0 10px 7vw;
 		font-size: 14px;
 	}
 	.access_suppl{
-		margin: 0 0 20px 12vw;
+		margin: 0 0 20px 7vw;
 	}
 	.access_suppl-text{
 		font-size: 12px;
