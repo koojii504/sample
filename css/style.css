@@ -818,7 +818,7 @@ footer .copyright{
 	}
 	.price_item{
 		display: block;
-		/* justify-items: center; */
+		justify-items: center;
 		width: 312px;
 		margin: auto;
 		margin-bottom: 0;
@@ -1003,8 +1003,6 @@ footer .copyright{
 	}
 
 	.teacher_external{
-		/* margin-left: 0; */
-		/* margin-inline: 30px; */
 		margin: auto;
 		background-color: #fff;
 	}
@@ -1082,8 +1080,5 @@ footer .copyright{
 		bottom: 0;
 	}
 }
-
-
-
 
 
