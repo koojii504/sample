@@ -1002,8 +1002,9 @@ footer .copyright{
 	}
 
 	.teacher_external{
-		margin-left: 0;
-		margin-inline: 30px;
+		/* margin-left: 0; */
+		/* margin-inline: 30px; */
+		margin: auto;
 		background-color: #fff;
 	}
 	.teacher_external-title{
@@ -1080,5 +1081,6 @@ footer .copyright{
 		bottom: 0;
 	}
 }
+
 
 
