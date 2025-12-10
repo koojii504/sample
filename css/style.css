@@ -742,7 +742,7 @@ footer .copyright{
 	}
 	.about_text-yoga,
 	.about_text-pilates{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 
@@ -755,11 +755,11 @@ footer .copyright{
 		margin-bottom: 20px;
 	}
 	.lesson_header-text{
-		font-size: 12px
+		font-size: 14px
 	}
 	.lesson_header-text span{
 		display: block;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.lesson_menu{
 		margin-inline: 20px;
@@ -785,7 +785,7 @@ footer .copyright{
 	.lesson_yoga-text,
 	.lesson_pilates-text,
 	.lesson_reformer-text{
-		font-size: 10px;
+		font-size: 14px;
 		line-height: 1.5;
 	}
 	.lesson_yoga-text span,
@@ -800,7 +800,7 @@ footer .copyright{
 	}
 	.lesson_suppl-text span{
 		display: block;
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 1.5;
 	}
 
@@ -927,7 +927,7 @@ footer .copyright{
 	.topics_text{
 		margin-bottom: 0;
 		padding-block: 15px;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 1.5;
 	}
 	.topics_date{
