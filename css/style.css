@@ -825,6 +825,7 @@ footer .copyright{
 	}
 	.price_box{
 		width: 80%;
+		margin: auto;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
 		border-bottom: 1px solid #666;
@@ -1081,6 +1082,7 @@ footer .copyright{
 		bottom: 0;
 	}
 }
+
 
 
 
