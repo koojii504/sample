@@ -754,6 +754,9 @@ footer .copyright{
 	.lesson_title{
 		margin-bottom: 20px;
 	}
+	.lesson_header-wrapper{
+		margin-inline: 20px;
+	}
 	.lesson_header-text{
 		font-size: 14px
 	}
@@ -767,7 +770,33 @@ footer .copyright{
 	.lesson_yoga,
 	.lesson_pilates,
 	.lesson_reformer{
-		gap: 10px;
+		/* gap: 10px; */
+		display: none;
+	}
+	.lesson_yoga-sp,
+	.lesson_pilates-sp,
+	.lesson_reformer-sp{
+		width: 100%;
+		font-size: 14px;
+	}
+	.lesson_yoga-sp-img,
+	.lesson_pilates-sp-img,
+	.lesson_reformer-sp-img{
+		display: flex;
+		width: 50%;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.lesson_yoga-sp-title,
+	.lesson_pilates-sp-title,
+	.lesson_reformer-sp-title{
+		text-align: center;
+		margin-bottom: 10px;
+	.lesson_yoga-sp-text,
+	.lesson_pilates-sp-text,
+	.lesson_reformer-text{
+		display: flex;
+		justify-content: center;
 	}
 	.lesson_yoga-left,
 	.lesson_pilates-right,
