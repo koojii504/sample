@@ -347,6 +347,12 @@ header{
 	gap: 30px;
 	margin-bottom: 50px;
 }
+.lesson_yoga-sp,
+.lesson_pilates-sp,
+.lesson_reformer-sp{
+	display: none;
+}
+
 .lesson_yoga,
 .lesson_pilates,
 .lesson_reformer,
