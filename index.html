@@ -55,12 +55,26 @@
 			</div> -->
 
 			<!-- メインビジュアル（スライダー） -->
-			<ul class="mv_list">
-				<li><img class="mv_img" src="images/kv01.jpg" alt="メインビジュアル"></li>
-				<li><img class="mv_img" src="images/kv02.jpg" alt="メインビジュアル"></li>
-				<li><img class="mv_img" src="images/kv03.jpg" alt="メインビジュアル"></li>
+			<ul class="mv_list-pc">
+				<li>
+					<picture>
+						<source class="mv_img-pc" media="(max-width: 768px)" srcset="images/kv01-sp.jpg" alt="pcメインビジュアル">
+						<img class="mv_img-sp" src="images/kv01.jpg" alt="spメインビジュアル">
+					</picture>
+				</li>
+				<li>
+					<picture>
+						<source class="mv_img-pc" media="(max-width: 768px)" srcset="images/kv02-sp.jpg" alt="pcメインビジュアル">
+						<img class="mv_img-sp" src="images/kv02.jpg" alt="spメインビジュアル">
+					</picture>
+				</li>
+				<li>
+					<picture>
+						<source class="mv_img-pc" media="(max-width: 768px)" srcset="images/kv03-sp.jpg" alt="pcメインビジュアル">
+						<img class="mv_img-sp" src="images/kv03.jpg" alt="spメインビジュアル">
+					</picture>
+				</li>
 			</ul>
-
 
 
 			<!-- <div id="button">
