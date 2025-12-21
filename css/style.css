@@ -130,7 +130,7 @@ header{
 	letter-spacing: 0.2em;
 	z-index: 6;
 }
-.mv_img{
+.mv_img-pc{
 	width: 960px;
 }
 
@@ -682,7 +682,7 @@ footer .copyright{
 	/* メインビジュアル */
 	.mv_key-text{
 		position: absolute;
-		top: 100px;
+		top: 45%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-size: medium;
@@ -694,7 +694,7 @@ footer .copyright{
 	}
 	.mv_key-text-en{
 		position: absolute;
-		top: 120px;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		color: #fff;
@@ -706,12 +706,13 @@ footer .copyright{
 		letter-spacing: 0.2em;
 		z-index: 6;
 	}
-	.mv_movie{
-		height: 30vh;
-	}
-	.mv_video{
 
+	.mv_img-sp{
+		width: 375px;
 	}
+	/* .mv_movie{
+		height: 30vh;
+	} */
 
 	.scroll{
 		display: none;
@@ -734,7 +735,7 @@ footer .copyright{
 
 /* about */
 	.about{
-		margin-top: 285px;
+		margin-top: 0;
 		margin-inline: 20px;
 		background-color: #f9f4f2;
 	}
