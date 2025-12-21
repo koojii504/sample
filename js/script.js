@@ -19,7 +19,7 @@ $(function(){
   var interval = 3000;
 
   // フェードイン／アウトのスピード（500ミリ秒に設定）
-  var duration = 500;
+  var duration = 1500;
 
   // タイマーの変数
   var timer;
