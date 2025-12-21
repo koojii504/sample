@@ -100,13 +100,13 @@ header{
 /* メインビジュアル */
 .mv{
 	position: relative;
+	height: 540px;
 	/* margin-top: 80px; */
 }
-/* .mv img{
-	width: 100%;
-	height: auto;
-	z-index: 5;
-} */
+.mv_img{
+	width: 960px;
+}
+
 .mv_key-text{
 	position: absolute;
 	top: 250px;
@@ -135,7 +135,7 @@ header{
 	z-index: 6;
 }
 
-.mv_movie{
+/* .mv_movie{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -152,8 +152,9 @@ header{
 	min-height: 100%;
 	width: auto;
 	height: 100%;
-}
-/* #visual li, #button li{
+} */
+
+#visual li, #button li{
     list-style-type: none;
 }
 #visual ul{
@@ -162,9 +163,10 @@ header{
 }
 #visual li{
     position: absolute;
-    width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
 }
-#button{
+/* #button{
 	padding:10px 0;
 	text-align:center;
 }
@@ -203,7 +205,7 @@ header{
   padding-top: 60px;
   position: absolute;
 	right: 50%;
-	bottom: -400px;
+	bottom: 80px;
 	z-index: 6;
 }
 /* 矢印のアニメーション部分 */
@@ -263,7 +265,7 @@ header{
 
 /* about（教室について） */
 .about{
-	margin-top: 607px;
+	margin-top: 50px;
 }
 .about_title{
 	text-align: center;
