@@ -784,6 +784,7 @@ footer .copyright{
 	.lesson_yoga-sp,
 	.lesson_pilates-sp,
 	.lesson_reformer-sp{
+		display: block;
 		width: 100%;
 		font-size: 14px;
 	}
