@@ -687,6 +687,7 @@ footer .copyright{
 	/* メインビジュアル */
 	.mv{
 		height: 500px;
+		margin-bottom: 20px;
 	}
 	.mv_key-text{
 		position: absolute;
@@ -742,6 +743,7 @@ footer .copyright{
 
 /* キャンペーン */
 .campain{
+	margin-bottom: 20px;
 	margin-inline: 10px;
 }
 
