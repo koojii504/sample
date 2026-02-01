@@ -685,6 +685,9 @@ footer .copyright{
 	}
 
 	/* メインビジュアル */
+	.mv{
+		height: 500px;
+	}
 	.mv_key-text{
 		position: absolute;
 		top: 45%;
