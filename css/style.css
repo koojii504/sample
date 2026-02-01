@@ -737,6 +737,10 @@ footer .copyright{
 		z-index: 2;
 	}
 
+/* キャンペーン */
+.campain{
+	margin-inline: 20px;
+}
 
 /* about */
 	.about{
