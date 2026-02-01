@@ -439,7 +439,11 @@ header{
 }
 .price_cancel{
 	font-size: 14px;
-
+}
+.price_campain{
+	display: flex;
+	gap: 50px;
+	font-size: 14px;
 }
 
 /* スケジュール */
@@ -910,6 +914,13 @@ footer .copyright{
 	}
 	.price_cancel span{
 		display: block;
+		text-indent: 1em;
+	}
+	.price_campain{
+		display: block;
+		margin: 0;
+	}
+	.price_campain-fee{
 		text-indent: 1em;
 	}
 
