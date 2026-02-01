@@ -262,6 +262,11 @@ header{
 	text-decoration: none;
 }
 
+/* キャンペーン */
+.campain{
+	display: flex;
+	justify-content: center;
+}
 /* about（教室について） */
 .about{
 	margin-top: 50px;
