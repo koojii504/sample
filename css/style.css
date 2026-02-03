@@ -101,7 +101,7 @@ header{
 .mv{
 	position: relative;
 	height: 540px;
-	/* margin-top: 80px; */
+	margin-bottom: 10px;
 }
 .mv_key-text{
 	position: absolute;
@@ -267,6 +267,7 @@ header{
 	display: flex;
 	justify-content: center;
 }
+
 /* about（教室について） */
 .about{
 	margin-top: 50px;
@@ -748,7 +749,6 @@ footer .copyright{
 /* キャンペーン */
 .campain{
 	margin-bottom: 20px;
-	margin-inline: 10px;
 }
 
 /* about */
